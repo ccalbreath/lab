@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-yaml
+  labels:
+    run: pod
+spec:
+  containers:
+    - name: nginx-yaml
+      image: nginx
